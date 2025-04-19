@@ -10,15 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blocknote/core": "latest",
-    "@blocknote/react": "latest",
+    "@aws-sdk/client-s3": "^3.609.0",
+    "@aws-sdk/s3-request-presigner": "^3.609.0",
     "@blocknote/ariakit": "latest",
+    "@blocknote/core": "latest",
+    "@blocknote/example-s3": "file:",
     "@blocknote/mantine": "latest",
+    "@blocknote/react": "latest",
     "@blocknote/shadcn": "latest",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@aws-sdk/client-s3": "^3.609.0",
-    "@aws-sdk/s3-request-presigner": "^3.609.0"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
