@@ -49,5 +49,8 @@
     "start": "serve playground/dist -c ../serve.json",
     "test": "nx run-many --target=test",
     "bootstrap": "echo 'do nothing'"
+  },
+  "dependencies": {
+    "root": "file:"
   }
 }

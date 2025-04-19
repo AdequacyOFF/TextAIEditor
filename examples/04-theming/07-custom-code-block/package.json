@@ -10,19 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blocknote/core": "latest",
-    "@blocknote/react": "latest",
     "@blocknote/ariakit": "latest",
-    "@blocknote/mantine": "latest",
-    "@blocknote/shadcn": "latest",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "@blocknote/code-block": "latest",
-    "@shikijs/types": "^3.2.1",
+    "@blocknote/core": "latest",
+    "@blocknote/example-custom-code-block": "file:",
+    "@blocknote/mantine": "latest",
+    "@blocknote/react": "latest",
+    "@blocknote/shadcn": "latest",
     "@shikijs/core": "^3.2.1",
     "@shikijs/engine-javascript": "^3.2.1",
     "@shikijs/langs-precompiled": "^3.2.1",
-    "@shikijs/themes": "^3.2.1"
+    "@shikijs/themes": "^3.2.1",
+    "@shikijs/types": "^3.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",

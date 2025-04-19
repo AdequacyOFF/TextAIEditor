@@ -10,18 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blocknote/core": "latest",
-    "@blocknote/react": "latest",
     "@blocknote/ariakit": "latest",
+    "@blocknote/core": "latest",
+    "@blocknote/example-liveblocks": "file:",
     "@blocknote/mantine": "latest",
+    "@blocknote/react": "latest",
     "@blocknote/shadcn": "latest",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "@liveblocks/client": "^2.22.3",
     "@liveblocks/react": "^2.22.3",
     "@liveblocks/react-blocknote": "^2.22.3",
     "@liveblocks/react-tiptap": "^2.22.3",
     "@liveblocks/react-ui": "^2.22.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "yjs": "^13.6.15"
   },
   "devDependencies": {

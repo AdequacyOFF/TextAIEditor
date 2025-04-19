@@ -56,6 +56,7 @@
   },
   "dependencies": {
     "@ariakit/react": "^0.4.3",
+    "@blocknote/ariakit": "file:",
     "@blocknote/core": "0.29.1",
     "@blocknote/react": "0.29.1"
   },

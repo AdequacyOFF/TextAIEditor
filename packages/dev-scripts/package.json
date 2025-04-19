@@ -34,5 +34,8 @@
     "extends": [
       "../../.eslintrc.js"
     ]
+  },
+  "dependencies": {
+    "@blocknote/dev-scripts": "file:"
   }
 }

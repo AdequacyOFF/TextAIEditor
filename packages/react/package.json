@@ -58,6 +58,7 @@
   },
   "dependencies": {
     "@blocknote/core": "0.29.1",
+    "@blocknote/react": "file:",
     "@emoji-mart/data": "^1.2.1",
     "@floating-ui/react": "^0.26.4",
     "@tiptap/core": "^2.7.1",
