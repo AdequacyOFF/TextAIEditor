@@ -15,9 +15,15 @@ importers:
 
   .:
     dependencies:
+      path:
+        specifier: ^0.12.7
+        version: 0.12.7
       root:
         specifier: 'file:'
         version: 'file:'
+      url:
+        specifier: ^0.11.4
+        version: 0.11.4
     devDependencies:
       '@nx/js':
         specifier: 20.6.4
@@ -188,6 +194,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-minimal':
+        specifier: 'file:'
+        version: file:examples/01-basic/01-minimal(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -225,6 +234,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-block-objects':
+        specifier: 'file:'
+        version: file:examples/01-basic/02-block-objects(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -262,6 +274,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-multi-column':
+        specifier: 'file:'
+        version: file:examples/01-basic/03-multi-column(@tiptap/pm@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -302,6 +317,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-default-blocks':
+        specifier: 'file:'
+        version: file:examples/01-basic/04-default-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -339,6 +357,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-removing-default-blocks':
+        specifier: 'file:'
+        version: file:examples/01-basic/05-removing-default-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -376,6 +397,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-block-manipulation':
+        specifier: 'file:'
+        version: file:examples/01-basic/06-block-manipulation(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -413,6 +437,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-selection-blocks':
+        specifier: 'file:'
+        version: file:examples/01-basic/07-selection-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -450,6 +477,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-ariakit':
+        specifier: 'file:'
+        version: file:examples/01-basic/08-ariakit(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -487,6 +517,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-shadcn':
+        specifier: 'file:'
+        version: file:examples/01-basic/09-shadcn(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -524,6 +557,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-localization':
+        specifier: 'file:'
+        version: file:examples/01-basic/10-localization(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -561,6 +597,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-custom-placeholder':
+        specifier: 'file:'
+        version: file:examples/01-basic/11-custom-placeholder(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -598,6 +637,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-multi-editor':
+        specifier: 'file:'
+        version: file:examples/01-basic/12-multi-editor(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -635,6 +677,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-custom-paste-handler':
+        specifier: 'file:'
+        version: file:examples/01-basic/13-custom-paste-handler(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -672,6 +717,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-testing':
+        specifier: 'file:'
+        version: file:examples/01-basic/testing(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -709,6 +757,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-file-uploading':
+        specifier: 'file:'
+        version: file:examples/02-backend/01-file-uploading(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -746,6 +797,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-saving-loading':
+        specifier: 'file:'
+        version: file:examples/02-backend/02-saving-loading(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -789,6 +843,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-s3':
+        specifier: 'file:'
+        version: file:examples/02-backend/03-s3(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -826,6 +883,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-rendering-static-documents':
+        specifier: 'file:'
+        version: file:examples/02-backend/04-rendering-static-documents(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -866,6 +926,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-ui-elements-remove':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/01-ui-elements-remove(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -903,6 +966,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-formatting-toolbar-buttons':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/02-formatting-toolbar-buttons(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -940,6 +1006,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-formatting-toolbar-block-type-items':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/03-formatting-toolbar-block-type-items(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -983,6 +1052,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-side-menu-buttons':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/04-side-menu-buttons(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1023,6 +1095,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-side-menu-drag-handle-items':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/05-side-menu-drag-handle-items(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1063,6 +1138,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-suggestion-menus-slash-menu-items':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/06-suggestion-menus-slash-menu-items(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1103,6 +1181,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-suggestion-menus-slash-menu-component':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/07-suggestion-menus-slash-menu-component(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1140,6 +1221,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-suggestion-menus-emoji-picker-columns':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/08-suggestion-menus-emoji-picker-columns(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1177,6 +1261,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-suggestion-menus-emoji-picker-component':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/09-suggestion-menus-emoji-picker-component(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1214,6 +1301,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-suggestion-menus-grid-mentions':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/10-suggestion-menus-grid-mentions(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1251,6 +1341,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-uppy-file-panel':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/11-uppy-file-panel(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1324,6 +1417,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-static-formatting-toolbar':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/12-static-formatting-toolbar(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1361,6 +1457,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-custom-ui':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/13-custom-ui(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1410,6 +1509,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-experimental-mobile-formatting-toolbar':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/14-experimental-mobile-formatting-toolbar(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1447,6 +1549,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-advanced-tables':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/15-advanced-tables(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1484,6 +1589,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-link-toolbar-buttons':
+        specifier: 'file:'
+        version: file:examples/03-ui-components/link-toolbar-buttons(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1521,6 +1629,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-theming-dom-attributes':
+        specifier: 'file:'
+        version: file:examples/04-theming/01-theming-dom-attributes(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1558,6 +1669,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-changing-font':
+        specifier: 'file:'
+        version: file:examples/04-theming/02-changing-font(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1595,6 +1709,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-theming-css':
+        specifier: 'file:'
+        version: file:examples/04-theming/03-theming-css(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1632,6 +1749,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-theming-css-variables':
+        specifier: 'file:'
+        version: file:examples/04-theming/04-theming-css-variables(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1669,6 +1789,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-theming-css-variables-code':
+        specifier: 'file:'
+        version: file:examples/04-theming/05-theming-css-variables-code(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1709,6 +1832,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-code-block':
+        specifier: 'file:'
+        version: file:examples/04-theming/06-code-block(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1749,6 +1875,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-custom-code-block':
+        specifier: 'file:'
+        version: file:examples/04-theming/07-custom-code-block(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1801,6 +1930,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-converting-blocks-to-html':
+        specifier: 'file:'
+        version: file:examples/05-interoperability/01-converting-blocks-to-html(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1838,6 +1970,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-converting-blocks-from-html':
+        specifier: 'file:'
+        version: file:examples/05-interoperability/02-converting-blocks-from-html(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1875,6 +2010,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-converting-blocks-to-md':
+        specifier: 'file:'
+        version: file:examples/05-interoperability/03-converting-blocks-to-md(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1912,6 +2050,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-converting-blocks-from-md':
+        specifier: 'file:'
+        version: file:examples/05-interoperability/04-converting-blocks-from-md(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1949,6 +2090,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-converting-blocks-to-pdf':
+        specifier: 'file:'
+        version: file:examples/05-interoperability/05-converting-blocks-to-pdf(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -1992,6 +2136,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-converting-blocks-to-docx':
+        specifier: 'file:'
+        version: file:examples/05-interoperability/06-converting-blocks-to-docx(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2035,6 +2182,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-converting-blocks-to-odt':
+        specifier: 'file:'
+        version: file:examples/05-interoperability/07-converting-blocks-to-odt(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2075,6 +2225,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-alert-block':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/01-alert-block(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2118,6 +2271,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-suggestion-menus-mentions':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/02-suggestion-menus-mentions(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2155,6 +2311,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-font-style':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/03-font-style(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2195,6 +2354,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-pdf-file-block':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/04-pdf-file-block(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2238,6 +2400,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-alert-block-full-ux':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/05-alert-block-full-ux(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2281,6 +2446,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-react-custom-blocks':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/react-custom-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2318,6 +2486,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-react-custom-inline-content':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/react-custom-inline-content(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2355,6 +2526,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-react-custom-styles':
+        specifier: 'file:'
+        version: file:examples/06-custom-schema/react-custom-styles(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2392,6 +2566,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-partykit':
+        specifier: 'file:'
+        version: file:examples/07-collaboration/01-partykit(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2435,6 +2612,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-liveblocks':
+        specifier: 'file:'
+        version: file:examples/07-collaboration/02-liveblocks(@tiptap/core@2.11.7)(@tiptap/extension-collaboration-cursor@2.11.7)(@tiptap/extension-collaboration@2.11.7)(@tiptap/pm@2.11.7)(@tiptap/react@2.11.7)(@tiptap/suggestion@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(y-protocols@1.0.6)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2490,6 +2670,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-y-sweet':
+        specifier: 'file:'
+        version: file:examples/07-collaboration/03-y-sweet(@types/react-dom@18.3.6)(@types/react@18.3.20)(yjs@13.6.26)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2530,6 +2713,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-comments':
+        specifier: 'file:'
+        version: file:examples/07-collaboration/04-comments(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)(yjs@13.6.26)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2573,6 +2759,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-comments-with-sidebar':
+        specifier: 'file:'
+        version: file:examples/07-collaboration/05-comments-with-sidebar(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)(yjs@13.6.26)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2616,6 +2805,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-tiptap-arrow-conversion':
+        specifier: 'file:'
+        version: file:examples/08-extensions/01-tiptap-arrow-conversion(@tiptap/pm@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2656,6 +2848,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-react-vanilla-custom-blocks':
+        specifier: 'file:'
+        version: file:examples/vanilla-js/react-vanilla-custom-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2693,6 +2888,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-react-vanilla-custom-inline-content':
+        specifier: 'file:'
+        version: file:examples/vanilla-js/react-vanilla-custom-inline-content(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2730,6 +2928,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
+      '@blocknote/example-react-vanilla-custom-styles':
+        specifier: 'file:'
+        version: file:examples/vanilla-js/react-vanilla-custom-styles(@types/react-dom@18.3.6)(@types/react@18.3.20)
       '@blocknote/mantine':
         specifier: latest
         version: link:../../../packages/mantine
@@ -2764,6 +2965,9 @@ importers:
       '@ariakit/react':
         specifier: ^0.4.3
         version: 0.4.17(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/ariakit':
+        specifier: 'file:'
+        version: file:packages/ariakit(react-dom@18.3.1)(react@18.3.1)
       '@blocknote/core':
         specifier: 0.29.1
         version: link:../core
@@ -2813,8 +3017,11 @@ importers:
 
   packages/code-block:
     dependencies:
+      '@blocknote/code-block':
+        specifier: 'file:'
+        version: file:packages/code-block(@blocknote/core@packages+core)
       '@blocknote/core':
-        specifier: 0.29.1
+        specifier: workspace:^
         version: link:../core
       '@shikijs/core':
         specifier: ^3.2.1
@@ -2859,6 +3066,9 @@ importers:
 
   packages/core:
     dependencies:
+      '@blocknote/core':
+        specifier: 'file:'
+        version: file:packages/core(@hocuspocus/provider@2.15.2)(@types/hast@3.0.4)
       '@emoji-mart/data':
         specifier: ^1.2.1
         version: 1.2.1
@@ -3068,6 +3278,9 @@ importers:
       '@blocknote/core':
         specifier: 0.29.1
         version: link:../core
+      '@blocknote/mantine':
+        specifier: 'file:'
+        version: file:packages/mantine(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
       '@blocknote/react':
         specifier: 0.29.1
         version: link:../react
@@ -3129,6 +3342,9 @@ importers:
       '@blocknote/core':
         specifier: 0.29.1
         version: link:../core
+      '@blocknote/react':
+        specifier: 'file:'
+        version: file:packages/react(react-dom@18.3.1)(react@18.3.1)
       '@emoji-mart/data':
         specifier: ^1.2.1
         version: 1.2.1
@@ -3217,6 +3433,9 @@ importers:
       '@blocknote/react':
         specifier: 0.29.1
         version: link:../react
+      '@blocknote/server-util':
+        specifier: 'file:'
+        version: file:packages/server-util(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1)
       '@tiptap/core':
         specifier: ^2.7.1
         version: 2.11.7(@tiptap/pm@2.11.7)
@@ -3281,6 +3500,9 @@ importers:
       '@blocknote/react':
         specifier: 0.29.1
         version: link:../react
+      '@blocknote/shadcn':
+        specifier: 'file:'
+        version: file:packages/shadcn(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
       '@hookform/resolvers':
         specifier: ^3.6.0
         version: 3.10.0(react-hook-form@7.55.0)
@@ -3393,6 +3615,9 @@ importers:
       '@blocknote/core':
         specifier: 0.29.1
         version: link:../core
+      '@blocknote/xl-docx-exporter':
+        specifier: 'file:'
+        version: file:packages/xl-docx-exporter(react-dom@18.3.1)(react@18.3.1)
       buffer:
         specifier: ^6.0.3
         version: 6.0.3
@@ -3451,6 +3676,9 @@ importers:
       '@blocknote/react':
         specifier: 0.29.1
         version: link:../react
+      '@blocknote/xl-multi-column':
+        specifier: 'file:'
+        version: file:packages/xl-multi-column(@tiptap/pm@2.11.7)(react-dom@18.3.1)(react@18.3.1)
       '@tiptap/core':
         specifier: ^2.7.1
         version: 2.11.7(@tiptap/pm@2.11.7)
@@ -3521,6 +3749,9 @@ importers:
       '@blocknote/core':
         specifier: 0.29.1
         version: link:../core
+      '@blocknote/xl-odt-exporter':
+        specifier: 'file:'
+        version: file:packages/xl-odt-exporter(react-dom@18.3.1)(react@18.3.1)
       '@zip.js/zip.js':
         specifier: ^2.7.57
         version: 2.7.60
@@ -3576,6 +3807,9 @@ importers:
       '@blocknote/react':
         specifier: 0.29.1
         version: link:../react
+      '@blocknote/xl-pdf-exporter':
+        specifier: 'file:'
+        version: file:packages/xl-pdf-exporter(react-dom@18.3.1)(react@18.3.1)
       '@react-pdf/renderer':
         specifier: ^4.3.0
         version: 4.3.0(react@18.3.1)
@@ -5900,6 +6134,322 @@ packages:
     resolution: {integrity: sha512-4iri8i1AqYHJE2DstZYkyEprg6Pq6sKx3xn5FpySk9sNhH7qN2LLlHJCfDTZRILNwQNPD7mATWM0TBui7uC1pA==}
     dev: true
 
+  /@blocknote/ariakit@0.29.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-t3kZewGIbNOcev9B558CXAMTJnwrYUDxgTkIVhL3SOBQyLYAbu+yB3ULey+BSQS7Q62kO7oWAvwQStgbv16nlA==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@ariakit/react': 0.4.17(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  /@blocknote/code-block@0.29.1(@blocknote/core@0.29.1):
+    resolution: {integrity: sha512-oKUK+gpNtbSWPTIP/ZeqsXifZeOY3UAw43QcU3ZVOncMXVetUe5E5WE2Z2iBYox1NevZFBIOv7pJIPwUQYBSlg==}
+    peerDependencies:
+      '@blocknote/core': ^0.29.1
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@shikijs/core': 3.2.2
+      '@shikijs/engine-javascript': 3.2.2
+      '@shikijs/langs': 3.2.2
+      '@shikijs/langs-precompiled': 3.2.2
+      '@shikijs/themes': 3.2.2
+      '@shikijs/types': 3.2.1
+    dev: false
+
+  /@blocknote/core@0.29.1:
+    resolution: {integrity: sha512-W83pVJDC+Nbxez/xYm4oC0SkhM+SZ3MoELSNDfwNjRVhKkjCmjP9q9I1lBq3DTYtGNpeGwv8mh2NzIVPk/V2cQ==}
+    peerDependencies:
+      '@hocuspocus/provider': ^2.15.2
+    peerDependenciesMeta:
+      '@hocuspocus/provider':
+        optional: true
+    dependencies:
+      '@emoji-mart/data': 1.2.1
+      '@shikijs/types': 3.2.1
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      '@tiptap/extension-bold': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-code': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-collaboration': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)(y-prosemirror@1.3.3)
+      '@tiptap/extension-collaboration-cursor': 2.11.7(@tiptap/core@2.11.7)(y-prosemirror@1.3.3)
+      '@tiptap/extension-gapcursor': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-history': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-horizontal-rule': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-italic': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-link': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-paragraph': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-strike': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-table-cell': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-table-header': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-table-row': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-text': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-underline': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/pm': 2.11.7
+      emoji-mart: 5.6.0
+      hast-util-from-dom: 5.0.1
+      prosemirror-dropcursor: 1.8.1
+      prosemirror-highlight: 0.13.0(@shikijs/types@3.2.1)(@types/hast@3.0.4)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-transform@1.10.3)(prosemirror-view@1.39.1)
+      prosemirror-model: 1.25.0
+      prosemirror-state: 1.4.3
+      prosemirror-tables: 1.7.1
+      prosemirror-transform: 1.10.3
+      prosemirror-view: 1.39.1
+      rehype-format: 5.0.1
+      rehype-parse: 9.0.1
+      rehype-remark: 10.0.1
+      rehype-stringify: 10.0.1
+      remark-gfm: 4.0.1
+      remark-parse: 11.0.0
+      remark-rehype: 11.1.2
+      remark-stringify: 11.0.0
+      unified: 11.0.5
+      uuid: 8.3.2
+      y-prosemirror: 1.3.3(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(y-protocols@1.0.6)(yjs@13.6.26)
+      y-protocols: 1.0.6(yjs@13.6.26)
+      yjs: 13.6.26
+    transitivePeerDependencies:
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  /@blocknote/mantine@0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Jnye4/vlWrsAMWoGazsjHVhuT9Yl0/vqwx15ggB56Vgz6tyoR3CENzoNU9/7KD9lwJ5ZfQZfaYv65yu9IOrJAA==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/hooks': 7.17.4(react@18.3.1)
+      '@mantine/utils': 6.0.22(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  /@blocknote/react@0.29.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-kCkqFuMWFRtjT5mYqU1QwGQKaSvWMKjRUFHHDatZV294rD6mV8Y+fzwyVpMVQuu2YjC/gz4NsHrnjWmAz7N83Q==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@emoji-mart/data': 1.2.1
+      '@floating-ui/react': 0.26.28(react-dom@18.3.1)(react@18.3.1)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      '@tiptap/pm': 2.11.7
+      '@tiptap/react': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)(react-dom@18.3.1)(react@18.3.1)
+      emoji-mart: 5.6.0
+      lodash.merge: 4.6.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  /@blocknote/server-util@0.29.1(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-uBNXrsLhAVCmq2vmpJq1fOZK1l3Z2fB1ehEXzs2Vn7uXYRxoqGsQfVMq5eHrgu0TBmbig2Ryzz/gB/8ADtN5pA==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      '@tiptap/pm': 2.11.7
+      jsdom: 25.0.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      y-prosemirror: 1.3.3(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(y-protocols@1.0.6)(yjs@13.6.26)
+      y-protocols: 1.0.6(yjs@13.6.26)
+      yjs: 13.6.26
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - bufferutil
+      - canvas
+      - highlight.js
+      - lowlight
+      - prosemirror-model
+      - prosemirror-state
+      - prosemirror-view
+      - refractor
+      - sugar-high
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /@blocknote/shadcn@0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-xkRqWgz6rn2q0fyLIVXPQv0gWfusemAH5D81KNbueVTmQ57adtm7asctHmqztMn15YNKMaX57KmoiWNLARh7ow==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@hookform/resolvers': 3.10.0(react-hook-form@7.55.0)
+      '@radix-ui/react-avatar': 1.1.6(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-dropdown-menu': 2.1.10(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-label': 2.1.4(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-popover': 1.1.10(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-select': 2.2.2(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-slot': 1.2.0(@types/react@18.3.20)(react@18.3.1)
+      '@radix-ui/react-tabs': 1.1.7(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-toggle': 1.1.6(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-tooltip': 1.2.3(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      autoprefixer: 10.4.21(postcss@8.5.3)
+      class-variance-authority: 0.7.1
+      clsx: 2.1.1
+      lucide-react: 0.501.0(react@18.3.1)
+      postcss: 8.5.3
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-hook-form: 7.55.0(react@18.3.1)
+      tailwind-merge: 2.6.0
+      tailwindcss: 3.4.17
+      tailwindcss-animate: 1.0.7(tailwindcss@3.4.17)
+      zod: 3.24.3
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  /@blocknote/xl-docx-exporter@0.29.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-kwxnDUCfsLimSgJAU/Uqgno3Io5w+uctqe1iBcZftMOKZl2aXMCDWO70wNfbfqe9HPo+UE4CJBM5gefda0pMyw==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      buffer: 6.0.3
+      docx: 9.4.1
+      image-meta: 0.2.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  /@blocknote/xl-multi-column@0.29.1(@tiptap/pm@2.11.7)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-mqeUl1SZ9UkT6ZgjA6t3SZWx6yE2yW1ZikcuuXo4T1buOX98iBD3CNycnGu76bATtgCAvwMsz6Qc5Kmpnp3dzg==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      prosemirror-model: 1.25.0
+      prosemirror-state: 1.4.3
+      prosemirror-tables: 1.7.1
+      prosemirror-transform: 1.10.3
+      prosemirror-view: 1.39.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@tiptap/pm'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  /@blocknote/xl-odt-exporter@0.29.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-7OJlPK/eIg3a+YsVoKHijI33dpAJTi2dySc+cC6KJDukS8LfGD7TGEb/ghHZ+jg78qlF0vKlyGCd2lJzMfL4rw==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@zip.js/zip.js': 2.7.60
+      buffer: 6.0.3
+      image-meta: 0.2.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  /@blocknote/xl-pdf-exporter@0.29.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-1Ag0U4d8W+2rjt1lPDdqELcSv36r+ak27I8mvD31MmvTUSK4hB3l3irG/UpQXKOgiZq1wu6+i9fWmuofv1e4jw==}
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@react-pdf/renderer': 4.3.0(react@18.3.1)
+      buffer: 6.0.3
+      docx: 9.4.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
   /@braintree/sanitize-url@6.0.4:
     resolution: {integrity: sha512-s3jaWicZd0pkP0jf5ysyHUI/RE7MHos6qlToFcGWXVp+ykHOy77OUMrfbgJ9it2C5bow7OIQwYYaHjk9XlBQ2A==}
     dev: false
@@ -7153,6 +7703,43 @@ packages:
 
   /@liveblocks/core@2.23.1:
     resolution: {integrity: sha512-LnVMqqPlLeSrqO9XpUDgrFbxUf+lIS3Q9L3YClRxqf+q7qbr98G78onYG1QEw770czlEIfhwA8+haYai/LwdPQ==}
+    dev: false
+
+  /@liveblocks/react-blocknote@2.23.1(@blocknote/core@0.29.1)(@blocknote/react@0.29.1)(@tiptap/core@2.11.7)(@tiptap/extension-collaboration-cursor@2.11.7)(@tiptap/extension-collaboration@2.11.7)(@tiptap/pm@2.11.7)(@tiptap/react@2.11.7)(@tiptap/suggestion@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1)(y-protocols@1.0.6)(yjs@13.6.26):
+    resolution: {integrity: sha512-IETmiIoXzi2164ooIdgHN7yMrhr+d6T/9eNs4lBipuDi9w2VRk/jQboGSnM8H1Y+B9eM4cMquH8txfbOFg8CAw==}
+    peerDependencies:
+      '@blocknote/core': 0.25.1 - 1.0.0
+      '@blocknote/react': 0.25.1 - 1.0.0
+      '@tiptap/core': ^2.7.2
+      react: ^18 || ^19 || ^19.0.0-rc
+      react-dom: ^18 || ^19 || ^19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@liveblocks/client': 2.23.1
+      '@liveblocks/core': 2.23.1
+      '@liveblocks/react': 2.23.1(react@18.3.1)
+      '@liveblocks/react-tiptap': 2.23.1(@tiptap/extension-collaboration-cursor@2.11.7)(@tiptap/extension-collaboration@2.11.7)(@tiptap/pm@2.11.7)(@tiptap/react@2.11.7)(@tiptap/suggestion@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1)(y-protocols@1.0.6)
+      '@liveblocks/react-ui': 2.23.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@liveblocks/yjs': 2.23.1(yjs@13.6.26)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      vitest-tsconfig-paths: 3.4.1
+    transitivePeerDependencies:
+      - '@tiptap/extension-collaboration'
+      - '@tiptap/extension-collaboration-cursor'
+      - '@tiptap/pm'
+      - '@tiptap/react'
+      - '@tiptap/suggestion'
+      - '@types/react'
+      - '@types/react-dom'
+      - prosemirror-model
+      - prosemirror-state
+      - prosemirror-view
+      - supports-color
+      - y-protocols
+      - yjs
     dev: false
 
   /@liveblocks/react-blocknote@2.23.1(@blocknote/core@packages+core)(@blocknote/react@packages+react)(@tiptap/core@2.11.7)(@tiptap/extension-collaboration-cursor@2.11.7)(@tiptap/extension-collaboration@2.11.7)(@tiptap/pm@2.11.7)(@tiptap/react@2.11.7)(@tiptap/suggestion@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1)(y-protocols@1.0.6)(yjs@13.6.26):
@@ -12432,7 +13019,6 @@ packages:
     dependencies:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
-    dev: true
 
   /callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
@@ -15373,6 +15959,10 @@ packages:
       wrappy: 1.0.2
     dev: true
 
+  /inherits@2.0.3:
+    resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
+    dev: false
+
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
@@ -17894,7 +18484,6 @@ packages:
   /object-inspect@1.13.4:
     resolution: {integrity: sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==}
     engines: {node: '>= 0.4'}
-    dev: true
 
   /object-keys@1.1.1:
     resolution: {integrity: sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==}
@@ -18218,6 +18807,13 @@ packages:
     engines: {node: '>=6'}
     dev: true
     optional: true
+
+  /path@0.12.7:
+    resolution: {integrity: sha512-aXXC6s+1w7otVF9UletFkFcDsJeO7lSZBPUQhtb5O0xJe8LtYhj/GxldoL09bBj9+ZmE2hNoHqQSFMN5fikh4Q==}
+    dependencies:
+      process: 0.11.10
+      util: 0.10.4
+    dev: false
 
   /pathe@1.1.2:
     resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
@@ -18573,6 +19169,11 @@ packages:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
     dev: false
 
+  /process@0.11.10:
+    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
+    engines: {node: '>= 0.6.0'}
+    dev: false
+
   /progress@2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
@@ -18789,9 +19390,20 @@ packages:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
     engines: {node: '>=6'}
 
+  /punycode@1.4.1:
+    resolution: {integrity: sha512-jmYNElW7yvO7TV33CjSmvSiE2yco3bV2czu/OzDKdMNVZQWfxCblURLhf+47syQRBntjfLdd/H0egrzIG+oaFQ==}
+    dev: false
+
   /punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
+
+  /qs@6.14.0:
+    resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
+    engines: {node: '>=0.6'}
+    dependencies:
+      side-channel: 1.1.0
+    dev: false
 
   /querystringify@2.2.0:
     resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
@@ -19819,7 +20431,6 @@ packages:
     dependencies:
       es-errors: 1.3.0
       object-inspect: 1.13.4
-    dev: true
 
   /side-channel-map@1.0.1:
     resolution: {integrity: sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iuBKIFXRA==}
@@ -19829,7 +20440,6 @@ packages:
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
       object-inspect: 1.13.4
-    dev: true
 
   /side-channel-weakmap@1.0.2:
     resolution: {integrity: sha512-WPS/HvHQTYnHisLo9McqBHOJk2FkHO/tlpvldyrnem4aeQp4hai3gythswg6p01oSoTl58rcpiFAjF2br2Ak2A==}
@@ -19840,7 +20450,6 @@ packages:
       get-intrinsic: 1.3.0
       object-inspect: 1.13.4
       side-channel-map: 1.0.1
-    dev: true
 
   /side-channel@1.1.0:
     resolution: {integrity: sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==}
@@ -19851,7 +20460,6 @@ packages:
       side-channel-list: 1.0.0
       side-channel-map: 1.0.1
       side-channel-weakmap: 1.0.2
-    dev: true
 
   /siginfo@2.0.0:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
@@ -20973,6 +21581,14 @@ packages:
       requires-port: 1.0.0
     dev: true
 
+  /url@0.11.4:
+    resolution: {integrity: sha512-oCwdVC7mTuWiPyjLUz/COz5TLk6wgp0RCsN+wHZ2Ekneac9w8uuV0njcbbie2ME+Vs+d6duwmYuR3HgQXs1fOg==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      punycode: 1.4.1
+      qs: 6.14.0
+    dev: false
+
   /use-callback-ref@1.3.3(@types/react@18.3.20)(react@18.3.1):
     resolution: {integrity: sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==}
     engines: {node: '>=10'}
@@ -21054,6 +21670,12 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  /util@0.10.4:
+    resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
+    dependencies:
+      inherits: 2.0.3
+    dev: false
 
   /uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
@@ -21915,9 +22537,2062 @@ packages:
   'file:':
     resolution: {directory: '', type: directory}
     name: root
+    dependencies:
+      path: 0.12.7
+      url: 0.11.4
+    dev: false
+
+  file:examples/01-basic/01-minimal(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/01-minimal, type: directory}
+    id: file:examples/01-basic/01-minimal
+    name: '@blocknote/example-minimal'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/02-block-objects(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/02-block-objects, type: directory}
+    id: file:examples/01-basic/02-block-objects
+    name: '@blocknote/example-block-objects'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/03-multi-column(@tiptap/pm@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/03-multi-column, type: directory}
+    id: file:examples/01-basic/03-multi-column
+    name: '@blocknote/example-multi-column'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/xl-multi-column': 0.29.1(@tiptap/pm@2.11.7)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@tiptap/pm'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/04-default-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/04-default-blocks, type: directory}
+    id: file:examples/01-basic/04-default-blocks
+    name: '@blocknote/example-default-blocks'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/05-removing-default-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/05-removing-default-blocks, type: directory}
+    id: file:examples/01-basic/05-removing-default-blocks
+    name: '@blocknote/example-removing-default-blocks'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/06-block-manipulation(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/06-block-manipulation, type: directory}
+    id: file:examples/01-basic/06-block-manipulation
+    name: '@blocknote/example-block-manipulation'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/07-selection-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/07-selection-blocks, type: directory}
+    id: file:examples/01-basic/07-selection-blocks
+    name: '@blocknote/example-selection-blocks'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/08-ariakit(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/08-ariakit, type: directory}
+    id: file:examples/01-basic/08-ariakit
+    name: '@blocknote/example-ariakit'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/09-shadcn(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/09-shadcn, type: directory}
+    id: file:examples/01-basic/09-shadcn
+    name: '@blocknote/example-shadcn'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/10-localization(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/10-localization, type: directory}
+    id: file:examples/01-basic/10-localization
+    name: '@blocknote/example-localization'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/11-custom-placeholder(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/11-custom-placeholder, type: directory}
+    id: file:examples/01-basic/11-custom-placeholder
+    name: '@blocknote/example-custom-placeholder'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/12-multi-editor(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/12-multi-editor, type: directory}
+    id: file:examples/01-basic/12-multi-editor
+    name: '@blocknote/example-multi-editor'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/13-custom-paste-handler(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/13-custom-paste-handler, type: directory}
+    id: file:examples/01-basic/13-custom-paste-handler
+    name: '@blocknote/example-custom-paste-handler'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/01-basic/testing(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/01-basic/testing, type: directory}
+    id: file:examples/01-basic/testing
+    name: '@blocknote/example-testing'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/02-backend/01-file-uploading(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/02-backend/01-file-uploading, type: directory}
+    id: file:examples/02-backend/01-file-uploading
+    name: '@blocknote/example-file-uploading'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/02-backend/02-saving-loading(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/02-backend/02-saving-loading, type: directory}
+    id: file:examples/02-backend/02-saving-loading
+    name: '@blocknote/example-saving-loading'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/02-backend/03-s3(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/02-backend/03-s3, type: directory}
+    id: file:examples/02-backend/03-s3
+    name: '@blocknote/example-s3'
+    dependencies:
+      '@aws-sdk/client-s3': 3.787.0
+      '@aws-sdk/s3-request-presigner': 3.787.0
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - aws-crt
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/02-backend/04-rendering-static-documents(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1):
+    resolution: {directory: examples/02-backend/04-rendering-static-documents, type: directory}
+    id: file:examples/02-backend/04-rendering-static-documents
+    name: '@blocknote/example-rendering-static-documents'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/server-util': 0.29.1(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - bufferutil
+      - canvas
+      - highlight.js
+      - lowlight
+      - prosemirror-model
+      - prosemirror-state
+      - prosemirror-view
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: false
+
+  file:examples/03-ui-components/01-ui-elements-remove(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/01-ui-elements-remove, type: directory}
+    id: file:examples/03-ui-components/01-ui-elements-remove
+    name: '@blocknote/example-ui-elements-remove'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/02-formatting-toolbar-buttons(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/02-formatting-toolbar-buttons, type: directory}
+    id: file:examples/03-ui-components/02-formatting-toolbar-buttons
+    name: '@blocknote/example-formatting-toolbar-buttons'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/03-formatting-toolbar-block-type-items(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/03-formatting-toolbar-block-type-items, type: directory}
+    id: file:examples/03-ui-components/03-formatting-toolbar-block-type-items
+    name: '@blocknote/example-formatting-toolbar-block-type-items'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@mantine/hooks'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/04-side-menu-buttons(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/04-side-menu-buttons, type: directory}
+    id: file:examples/03-ui-components/04-side-menu-buttons
+    name: '@blocknote/example-side-menu-buttons'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/05-side-menu-drag-handle-items(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/05-side-menu-drag-handle-items, type: directory}
+    id: file:examples/03-ui-components/05-side-menu-drag-handle-items
+    name: '@blocknote/example-side-menu-drag-handle-items'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/06-suggestion-menus-slash-menu-items(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/06-suggestion-menus-slash-menu-items, type: directory}
+    id: file:examples/03-ui-components/06-suggestion-menus-slash-menu-items
+    name: '@blocknote/example-suggestion-menus-slash-menu-items'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/07-suggestion-menus-slash-menu-component(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/07-suggestion-menus-slash-menu-component, type: directory}
+    id: file:examples/03-ui-components/07-suggestion-menus-slash-menu-component
+    name: '@blocknote/example-suggestion-menus-slash-menu-component'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/08-suggestion-menus-emoji-picker-columns(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/08-suggestion-menus-emoji-picker-columns, type: directory}
+    id: file:examples/03-ui-components/08-suggestion-menus-emoji-picker-columns
+    name: '@blocknote/example-suggestion-menus-emoji-picker-columns'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/09-suggestion-menus-emoji-picker-component(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/09-suggestion-menus-emoji-picker-component, type: directory}
+    id: file:examples/03-ui-components/09-suggestion-menus-emoji-picker-component
+    name: '@blocknote/example-suggestion-menus-emoji-picker-component'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/10-suggestion-menus-grid-mentions(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/10-suggestion-menus-grid-mentions, type: directory}
+    id: file:examples/03-ui-components/10-suggestion-menus-grid-mentions
+    name: '@blocknote/example-suggestion-menus-grid-mentions'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/11-uppy-file-panel(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/11-uppy-file-panel, type: directory}
+    id: file:examples/03-ui-components/11-uppy-file-panel
+    name: '@blocknote/example-uppy-file-panel'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@uppy/core': 3.13.1
+      '@uppy/dashboard': 3.9.1(@uppy/core@3.13.1)
+      '@uppy/drag-drop': 3.1.1(@uppy/core@3.13.1)
+      '@uppy/file-input': 3.1.2(@uppy/core@3.13.1)
+      '@uppy/image-editor': 2.4.6(@uppy/core@3.13.1)
+      '@uppy/progress-bar': 3.1.1(@uppy/core@3.13.1)
+      '@uppy/react': 3.4.0(@uppy/core@3.13.1)(@uppy/dashboard@3.9.1)(@uppy/drag-drop@3.1.1)(@uppy/file-input@3.1.2)(@uppy/progress-bar@3.1.1)(@uppy/status-bar@3.3.3)(react@18.3.1)
+      '@uppy/screen-capture': 3.2.0(@uppy/core@3.13.1)
+      '@uppy/status-bar': 3.3.3(@uppy/core@3.13.1)
+      '@uppy/webcam': 3.4.2(@uppy/core@3.13.1)
+      '@uppy/xhr-upload': 3.6.8(@uppy/core@3.13.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/12-static-formatting-toolbar(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/12-static-formatting-toolbar, type: directory}
+    id: file:examples/03-ui-components/12-static-formatting-toolbar
+    name: '@blocknote/example-static-formatting-toolbar'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/13-custom-ui(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/13-custom-ui, type: directory}
+    id: file:examples/03-ui-components/13-custom-ui
+    name: '@blocknote/example-custom-ui'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@emotion/react': 11.14.0(@types/react@18.3.20)(react@18.3.1)
+      '@emotion/styled': 11.14.0(@emotion/react@11.14.0)(@types/react@18.3.20)(react@18.3.1)
+      '@mui/icons-material': 5.17.1(@mui/material@5.17.1)(@types/react@18.3.20)(react@18.3.1)
+      '@mui/material': 5.17.1(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/14-experimental-mobile-formatting-toolbar(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/14-experimental-mobile-formatting-toolbar, type: directory}
+    id: file:examples/03-ui-components/14-experimental-mobile-formatting-toolbar
+    name: '@blocknote/example-experimental-mobile-formatting-toolbar'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/15-advanced-tables(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/15-advanced-tables, type: directory}
+    id: file:examples/03-ui-components/15-advanced-tables
+    name: '@blocknote/example-advanced-tables'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/03-ui-components/link-toolbar-buttons(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/03-ui-components/link-toolbar-buttons, type: directory}
+    id: file:examples/03-ui-components/link-toolbar-buttons
+    name: '@blocknote/example-link-toolbar-buttons'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/04-theming/01-theming-dom-attributes(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/04-theming/01-theming-dom-attributes, type: directory}
+    id: file:examples/04-theming/01-theming-dom-attributes
+    name: '@blocknote/example-theming-dom-attributes'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/04-theming/02-changing-font(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/04-theming/02-changing-font, type: directory}
+    id: file:examples/04-theming/02-changing-font
+    name: '@blocknote/example-changing-font'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/04-theming/03-theming-css(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/04-theming/03-theming-css, type: directory}
+    id: file:examples/04-theming/03-theming-css
+    name: '@blocknote/example-theming-css'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/04-theming/04-theming-css-variables(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/04-theming/04-theming-css-variables, type: directory}
+    id: file:examples/04-theming/04-theming-css-variables
+    name: '@blocknote/example-theming-css-variables'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/04-theming/05-theming-css-variables-code(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/04-theming/05-theming-css-variables-code, type: directory}
+    id: file:examples/04-theming/05-theming-css-variables-code
+    name: '@blocknote/example-theming-css-variables-code'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/04-theming/06-code-block(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/04-theming/06-code-block, type: directory}
+    id: file:examples/04-theming/06-code-block
+    name: '@blocknote/example-code-block'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/code-block': 0.29.1(@blocknote/core@0.29.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/04-theming/07-custom-code-block(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/04-theming/07-custom-code-block, type: directory}
+    id: file:examples/04-theming/07-custom-code-block
+    name: '@blocknote/example-custom-code-block'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/code-block': 0.29.1(@blocknote/core@0.29.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@shikijs/core': 3.2.2
+      '@shikijs/engine-javascript': 3.2.2
+      '@shikijs/langs-precompiled': 3.2.2
+      '@shikijs/themes': 3.2.2
+      '@shikijs/types': 3.2.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/05-interoperability/01-converting-blocks-to-html(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/05-interoperability/01-converting-blocks-to-html, type: directory}
+    id: file:examples/05-interoperability/01-converting-blocks-to-html
+    name: '@blocknote/example-converting-blocks-to-html'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/05-interoperability/02-converting-blocks-from-html(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/05-interoperability/02-converting-blocks-from-html, type: directory}
+    id: file:examples/05-interoperability/02-converting-blocks-from-html
+    name: '@blocknote/example-converting-blocks-from-html'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/05-interoperability/03-converting-blocks-to-md(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/05-interoperability/03-converting-blocks-to-md, type: directory}
+    id: file:examples/05-interoperability/03-converting-blocks-to-md
+    name: '@blocknote/example-converting-blocks-to-md'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/05-interoperability/04-converting-blocks-from-md(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/05-interoperability/04-converting-blocks-from-md, type: directory}
+    id: file:examples/05-interoperability/04-converting-blocks-from-md
+    name: '@blocknote/example-converting-blocks-from-md'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/05-interoperability/05-converting-blocks-to-pdf(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/05-interoperability/05-converting-blocks-to-pdf, type: directory}
+    id: file:examples/05-interoperability/05-converting-blocks-to-pdf
+    name: '@blocknote/example-converting-blocks-to-pdf'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/xl-pdf-exporter': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@react-pdf/renderer': 4.3.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/05-interoperability/06-converting-blocks-to-docx(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/05-interoperability/06-converting-blocks-to-docx, type: directory}
+    id: file:examples/05-interoperability/06-converting-blocks-to-docx
+    name: '@blocknote/example-converting-blocks-to-docx'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/xl-docx-exporter': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      docx: 9.4.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/05-interoperability/07-converting-blocks-to-odt(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/05-interoperability/07-converting-blocks-to-odt, type: directory}
+    id: file:examples/05-interoperability/07-converting-blocks-to-odt
+    name: '@blocknote/example-converting-blocks-to-odt'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/xl-odt-exporter': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/01-alert-block(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/01-alert-block, type: directory}
+    id: file:examples/06-custom-schema/01-alert-block
+    name: '@blocknote/example-alert-block'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@mantine/hooks'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/02-suggestion-menus-mentions(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/02-suggestion-menus-mentions, type: directory}
+    id: file:examples/06-custom-schema/02-suggestion-menus-mentions
+    name: '@blocknote/example-suggestion-menus-mentions'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/03-font-style(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/03-font-style, type: directory}
+    id: file:examples/06-custom-schema/03-font-style
+    name: '@blocknote/example-font-style'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/04-pdf-file-block(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/04-pdf-file-block, type: directory}
+    id: file:examples/06-custom-schema/04-pdf-file-block
+    name: '@blocknote/example-pdf-file-block'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@mantine/hooks'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/05-alert-block-full-ux(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/05-alert-block-full-ux, type: directory}
+    id: file:examples/06-custom-schema/05-alert-block-full-ux
+    name: '@blocknote/example-alert-block-full-ux'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@mantine/hooks'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/react-custom-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/react-custom-blocks, type: directory}
+    id: file:examples/06-custom-schema/react-custom-blocks
+    name: '@blocknote/example-react-custom-blocks'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/react-custom-inline-content(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/react-custom-inline-content, type: directory}
+    id: file:examples/06-custom-schema/react-custom-inline-content
+    name: '@blocknote/example-react-custom-inline-content'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/06-custom-schema/react-custom-styles(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/06-custom-schema/react-custom-styles, type: directory}
+    id: file:examples/06-custom-schema/react-custom-styles
+    name: '@blocknote/example-react-custom-styles'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/07-collaboration/01-partykit(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/07-collaboration/01-partykit, type: directory}
+    id: file:examples/07-collaboration/01-partykit
+    name: '@blocknote/example-partykit'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      y-partykit: 0.0.25
+      yjs: 13.6.26
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/07-collaboration/02-liveblocks(@tiptap/core@2.11.7)(@tiptap/extension-collaboration-cursor@2.11.7)(@tiptap/extension-collaboration@2.11.7)(@tiptap/pm@2.11.7)(@tiptap/react@2.11.7)(@tiptap/suggestion@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(y-protocols@1.0.6):
+    resolution: {directory: examples/07-collaboration/02-liveblocks, type: directory}
+    id: file:examples/07-collaboration/02-liveblocks
+    name: '@blocknote/example-liveblocks'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@liveblocks/client': 2.23.1
+      '@liveblocks/react': 2.23.1(react@18.3.1)
+      '@liveblocks/react-blocknote': 2.23.1(@blocknote/core@0.29.1)(@blocknote/react@0.29.1)(@tiptap/core@2.11.7)(@tiptap/extension-collaboration-cursor@2.11.7)(@tiptap/extension-collaboration@2.11.7)(@tiptap/pm@2.11.7)(@tiptap/react@2.11.7)(@tiptap/suggestion@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1)(y-protocols@1.0.6)(yjs@13.6.26)
+      '@liveblocks/react-tiptap': 2.23.1(@tiptap/extension-collaboration-cursor@2.11.7)(@tiptap/extension-collaboration@2.11.7)(@tiptap/pm@2.11.7)(@tiptap/react@2.11.7)(@tiptap/suggestion@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1)(y-protocols@1.0.6)
+      '@liveblocks/react-ui': 2.23.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      yjs: 13.6.26
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@tiptap/core'
+      - '@tiptap/extension-collaboration'
+      - '@tiptap/extension-collaboration-cursor'
+      - '@tiptap/pm'
+      - '@tiptap/react'
+      - '@tiptap/suggestion'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - prosemirror-model
+      - prosemirror-state
+      - prosemirror-view
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+      - y-protocols
+    dev: false
+
+  file:examples/07-collaboration/03-y-sweet(@types/react-dom@18.3.6)(@types/react@18.3.20)(yjs@13.6.26):
+    resolution: {directory: examples/07-collaboration/03-y-sweet, type: directory}
+    id: file:examples/07-collaboration/03-y-sweet
+    name: '@blocknote/example-y-sweet'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@y-sweet/react': 0.6.4(react@18.3.1)(yjs@13.6.26)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+      - yjs
+    dev: false
+
+  file:examples/07-collaboration/04-comments(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)(yjs@13.6.26):
+    resolution: {directory: examples/07-collaboration/04-comments, type: directory}
+    id: file:examples/07-collaboration/04-comments
+    name: '@blocknote/example-comments'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@y-sweet/react': 0.6.4(react@18.3.1)(yjs@13.6.26)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@mantine/hooks'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+      - yjs
+    dev: false
+
+  file:examples/07-collaboration/05-comments-with-sidebar(@mantine/hooks@7.17.4)(@types/react-dom@18.3.6)(@types/react@18.3.20)(yjs@13.6.26):
+    resolution: {directory: examples/07-collaboration/05-comments-with-sidebar, type: directory}
+    id: file:examples/07-collaboration/05-comments-with-sidebar
+    name: '@blocknote/example-comments-with-sidebar'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@y-sweet/react': 0.6.4(react@18.3.1)(yjs@13.6.26)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@mantine/hooks'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+      - yjs
+    dev: false
+
+  file:examples/08-extensions/01-tiptap-arrow-conversion(@tiptap/pm@2.11.7)(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/08-extensions/01-tiptap-arrow-conversion, type: directory}
+    id: file:examples/08-extensions/01-tiptap-arrow-conversion
+    name: '@blocknote/example-tiptap-arrow-conversion'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@tiptap/pm'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/vanilla-js/react-vanilla-custom-blocks(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/vanilla-js/react-vanilla-custom-blocks, type: directory}
+    id: file:examples/vanilla-js/react-vanilla-custom-blocks
+    name: '@blocknote/example-react-vanilla-custom-blocks'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/vanilla-js/react-vanilla-custom-inline-content(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/vanilla-js/react-vanilla-custom-inline-content, type: directory}
+    id: file:examples/vanilla-js/react-vanilla-custom-inline-content
+    name: '@blocknote/example-react-vanilla-custom-inline-content'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:examples/vanilla-js/react-vanilla-custom-styles(@types/react-dom@18.3.6)(@types/react@18.3.20):
+    resolution: {directory: examples/vanilla-js/react-vanilla-custom-styles, type: directory}
+    id: file:examples/vanilla-js/react-vanilla-custom-styles
+    name: '@blocknote/example-react-vanilla-custom-styles'
+    dependencies:
+      '@blocknote/ariakit': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/mantine': 0.29.1(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/shadcn': 0.29.1(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:packages/ariakit(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/ariakit, type: directory}
+    id: file:packages/ariakit
+    name: '@blocknote/ariakit'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@ariakit/react': 0.4.17(react-dom@18.3.1)(react@18.3.1)
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  file:packages/code-block(@blocknote/core@packages+core):
+    resolution: {directory: packages/code-block, type: directory}
+    id: file:packages/code-block
+    name: '@blocknote/code-block'
+    peerDependencies:
+      '@blocknote/core': workspace:^
+    dependencies:
+      '@blocknote/core': link:packages/core
+      '@shikijs/core': 3.2.2
+      '@shikijs/engine-javascript': 3.2.2
+      '@shikijs/langs': 3.2.2
+      '@shikijs/langs-precompiled': 3.2.2
+      '@shikijs/themes': 3.2.2
+      '@shikijs/types': 3.2.1
+    dev: false
+
+  file:packages/core(@hocuspocus/provider@2.15.2)(@types/hast@3.0.4):
+    resolution: {directory: packages/core, type: directory}
+    id: file:packages/core
+    name: '@blocknote/core'
+    peerDependencies:
+      '@hocuspocus/provider': ^2.15.2
+    peerDependenciesMeta:
+      '@hocuspocus/provider':
+        optional: true
+    dependencies:
+      '@emoji-mart/data': 1.2.1
+      '@hocuspocus/provider': 2.15.2(y-protocols@1.0.6)(yjs@13.6.26)
+      '@shikijs/types': 3.2.1
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      '@tiptap/extension-bold': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-code': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-collaboration': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)(y-prosemirror@1.3.3)
+      '@tiptap/extension-collaboration-cursor': 2.11.7(@tiptap/core@2.11.7)(y-prosemirror@1.3.3)
+      '@tiptap/extension-gapcursor': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-history': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-horizontal-rule': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-italic': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-link': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)
+      '@tiptap/extension-paragraph': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-strike': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-table-cell': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-table-header': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-table-row': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-text': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/extension-underline': 2.11.7(@tiptap/core@2.11.7)
+      '@tiptap/pm': 2.11.7
+      emoji-mart: 5.6.0
+      hast-util-from-dom: 5.0.1
+      prosemirror-dropcursor: 1.8.1
+      prosemirror-highlight: 0.13.0(@shikijs/types@3.2.1)(@types/hast@3.0.4)(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-transform@1.10.3)(prosemirror-view@1.39.1)
+      prosemirror-model: 1.25.0
+      prosemirror-state: 1.4.3
+      prosemirror-tables: 1.7.1
+      prosemirror-transform: 1.10.3
+      prosemirror-view: 1.39.1
+      rehype-format: 5.0.1
+      rehype-parse: 9.0.1
+      rehype-remark: 10.0.1
+      rehype-stringify: 10.0.1
+      remark-gfm: 4.0.1
+      remark-parse: 11.0.0
+      remark-rehype: 11.1.2
+      remark-stringify: 11.0.0
+      unified: 11.0.5
+      uuid: 8.3.2
+      y-prosemirror: 1.3.3(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(y-protocols@1.0.6)(yjs@13.6.26)
+      y-protocols: 1.0.6(yjs@13.6.26)
+      yjs: 13.6.26
+    transitivePeerDependencies:
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
     dev: false
 
   file:packages/dev-scripts:
     resolution: {directory: packages/dev-scripts, type: directory}
     name: '@blocknote/dev-scripts'
+    dev: false
+
+  file:packages/mantine(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/mantine, type: directory}
+    id: file:packages/mantine
+    name: '@blocknote/mantine'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/core': 7.17.4(@mantine/hooks@7.17.4)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@mantine/hooks': 7.17.4(react@18.3.1)
+      '@mantine/utils': 6.0.22(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  file:packages/react(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/react, type: directory}
+    id: file:packages/react
+    name: '@blocknote/react'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@emoji-mart/data': 1.2.1
+      '@floating-ui/react': 0.26.28(react-dom@18.3.1)(react@18.3.1)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      '@tiptap/pm': 2.11.7
+      '@tiptap/react': 2.11.7(@tiptap/core@2.11.7)(@tiptap/pm@2.11.7)(react-dom@18.3.1)(react@18.3.1)
+      emoji-mart: 5.6.0
+      lodash.merge: 4.6.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  file:packages/server-util(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/server-util, type: directory}
+    id: file:packages/server-util
+    name: '@blocknote/server-util'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      '@tiptap/pm': 2.11.7
+      jsdom: 25.0.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      y-prosemirror: 1.3.3(prosemirror-model@1.25.0)(prosemirror-state@1.4.3)(prosemirror-view@1.39.1)(y-protocols@1.0.6)(yjs@13.6.26)
+      y-protocols: 1.0.6(yjs@13.6.26)
+      yjs: 13.6.26
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - bufferutil
+      - canvas
+      - highlight.js
+      - lowlight
+      - prosemirror-model
+      - prosemirror-state
+      - prosemirror-view
+      - refractor
+      - sugar-high
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  file:packages/shadcn(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/shadcn, type: directory}
+    id: file:packages/shadcn
+    name: '@blocknote/shadcn'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@hookform/resolvers': 3.10.0(react-hook-form@7.55.0)
+      '@radix-ui/react-avatar': 1.1.6(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-dropdown-menu': 2.1.10(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-label': 2.1.4(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-popover': 1.1.10(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-select': 2.2.2(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-slot': 1.2.0(@types/react@18.3.20)(react@18.3.1)
+      '@radix-ui/react-tabs': 1.1.7(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-toggle': 1.1.6(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-tooltip': 1.2.3(@types/react-dom@18.3.6)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      autoprefixer: 10.4.21(postcss@8.5.3)
+      class-variance-authority: 0.7.1
+      clsx: 2.1.1
+      lucide-react: 0.501.0(react@18.3.1)
+      postcss: 8.5.3
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-hook-form: 7.55.0(react@18.3.1)
+      tailwind-merge: 2.6.0
+      tailwindcss: 3.4.17
+      tailwindcss-animate: 1.0.7(tailwindcss@3.4.17)
+      zod: 3.24.3
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - '@types/react'
+      - '@types/react-dom'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+      - ts-node
+    dev: false
+
+  file:packages/xl-docx-exporter(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/xl-docx-exporter, type: directory}
+    id: file:packages/xl-docx-exporter
+    name: '@blocknote/xl-docx-exporter'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      buffer: 6.0.3
+      docx: 9.4.1
+      image-meta: 0.2.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  file:packages/xl-multi-column(@tiptap/pm@2.11.7)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/xl-multi-column, type: directory}
+    id: file:packages/xl-multi-column
+    name: '@blocknote/xl-multi-column'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@tiptap/core': 2.11.7(@tiptap/pm@2.11.7)
+      prosemirror-model: 1.25.0
+      prosemirror-state: 1.4.3
+      prosemirror-tables: 1.7.1
+      prosemirror-transform: 1.10.3
+      prosemirror-view: 1.39.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.5.0(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@tiptap/pm'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  file:packages/xl-odt-exporter(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/xl-odt-exporter, type: directory}
+    id: file:packages/xl-odt-exporter
+    name: '@blocknote/xl-odt-exporter'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@zip.js/zip.js': 2.7.60
+      buffer: 6.0.3
+      image-meta: 0.2.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
+    dev: false
+
+  file:packages/xl-pdf-exporter(react-dom@18.3.1)(react@18.3.1):
+    resolution: {directory: packages/xl-pdf-exporter, type: directory}
+    id: file:packages/xl-pdf-exporter
+    name: '@blocknote/xl-pdf-exporter'
+    peerDependencies:
+      react: ^18.0 || ^19.0 || >= 19.0.0-rc
+      react-dom: ^18.0 || ^19.0 || >= 19.0.0-rc
+    dependencies:
+      '@blocknote/core': 0.29.1
+      '@blocknote/react': 0.29.1(react-dom@18.3.1)(react@18.3.1)
+      '@react-pdf/renderer': 4.3.0(react@18.3.1)
+      buffer: 6.0.3
+      docx: 9.4.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@hocuspocus/provider'
+      - '@types/hast'
+      - highlight.js
+      - lowlight
+      - refractor
+      - sugar-high
+      - supports-color
     dev: false

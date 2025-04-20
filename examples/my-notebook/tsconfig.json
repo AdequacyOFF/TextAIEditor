@@ -3,5 +3,12 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+     "paths": {
+      "@blocknote/core": ["../../packages/core/src/index.ts"],
+      "@blocknote/react": ["../../packages/react/src/index.ts"]
+    }
+  }
 }

@@ -1,125 +1,59 @@
-<p align="center">
-  <a href="https://www.blocknotejs.org">
-    <img alt="TypeCell" src="https://github.com/TypeCellOS/BlockNote/raw/main/docs/public/img/logos/banner.svg?raw=true" width="300" />
-  </a>
-</p>
+# 📝 My Notebook — расширение BlockNote с темами, Markdown и ИИ
 
-<p align="center">
-Welcome to BlockNote! The open source Block-Based
-React rich text editor. Easily add a modern text editing experience to your app.
-</p>
+Это встроенное приложение в виде полноценного редактора заметок на основе компонентов. Проект построен на основе Vite, React, Tailwind, NX и расширенного BlockNote.
 
-<p align="center">
-<a href="https://discord.gg/Qc2QTTH5dF"><img alt="Discord" src="https://img.shields.io/badge/Chat on discord%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/></a> 
-</p>
+---
 
-<p align="center">
-  <a href="https://www.blocknotejs.org">
-    Homepage
-  </a> - <a href="https://www.blocknotejs.org/docs/introduction">
-    Documentation
-  </a> - <a href="https://www.blocknotejs.org/docs/quickstart">
-    Quickstart
-  </a>- <a href="https://www.blocknotejs.org/examples">
-    Examples
-  </a>
-</p>
+## 🚀 Быстрый старт
 
-# Live demo
+### 1. Установи зависимости
 
-See our homepage @ [https://www.blocknotejs.org](https://www.blocknotejs.org/) or browse the [examples](https://www.blocknotejs.org/examples).
+Из корня проекта BlockNote (в который ты встроил `my-notebook`):
 
-# Example code (React)
+```bash
+pnpm install
 
-[![npm version](https://badge.fury.io/js/%40blocknote%2Freact.svg)](https://badge.fury.io/js/%40blocknote%2Freact)
+### 2. Запусти в режиме разработки
 
-```typescript
-import { useCreateBlockNote } from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/core/fonts/inter.css";
-import "@blocknote/mantine/style.css";
+```bash
+npx nx run @blocknote/my-notebook:dev
 
-function App() {
-  const editor = useCreateBlockNote();
+### 📁 Структура
 
-  return <BlockNoteView editor={editor} />;
-}
-```
+blocknote/
+│
+├── packages/
+│   ├── core/                   # Исходники BlockNote Core
+│   ├── react/                  # Обёртка React для BlockNote
+│   └── my-notebook/           # 💡 Наш кастомный редактор
+│       ├── src/
+│       │   ├── pages/
+│       │   ├── components/
+│       │   ├── lib/
+│       │   ├── index.css
+│       │   ├── App.tsx
+│       │   └── main.tsx
+│       ├── public/
+│       ├── project.json        # 📦 Конфиг NX
+│       ├── tsconfig.json
+│       └── vite.config.ts
+├── node_modules/
+├── nx.json / workspace.json    # Конфиг монорепозитория
+└── package.json                # Главный package.json
 
-`@blocknote/react` comes with a fully styled UI that makes it an instant, polished editor ready to use in your app.
+### ✨ Особенности
 
-If you prefer to create your own UI components (menus), or don't want to use React, you can use `@blocknote/core` (_advanced_, [see docs](https://www.blocknotejs.org/docs/vanilla-js)).
+── 📄 Поддержка Markdown: экспорт и импорт.
+── 🌙 Переключение темы: светлая / тёмная.
+── 🧱 Перетаскивание блоков.
+── 🤖 Встроенный AI sidebar (макет под TabNine).
+── 🧠 Полная интеграция с @blocknote/core и @blocknote/react напрямую из исходников.
 
-# Features
+### ⚙️ Команды
 
-BlockNote comes with a number of features and components to make it easy to embed a high-quality block-based editor in your app:
-
-### Animations:
-
-<img src="https://github.com/TypeCellOS/BlockNote/blob/readme/.resources/animations.gif?raw=true" width="400" />
-
-### Helpful placeholders:
-
-<img src="https://github.com/TypeCellOS/BlockNote/blob/readme/.resources/placeholders.gif?raw=true" width="400" />
-
-### Drag and drop blocks:
-
-<img src="https://github.com/TypeCellOS/BlockNote/blob/readme/.resources/dragdrop.gif?raw=true" width="400" />
-
-### Nesting / indentation with tab and shift+tab:
-
-<img src="https://github.com/TypeCellOS/BlockNote/blob/readme/.resources/nesting.gif?raw=true" width="400" />
-
-### Slash (/) menu:
-
-<img src="https://github.com/TypeCellOS/BlockNote/blob/readme/.resources/slashmenu.gif?raw=true" width="400" />
-
-### Format menu:
-
-<img src="https://github.com/TypeCellOS/BlockNote/blob/readme/.resources/selectmenu.gif?raw=true" width="400" />
-
-### Real-time collaboration:
-
-<img src="https://github.com/TypeCellOS/BlockNote/blob/readme/.resources/collaboration.gif?raw=true" width="400" />
-
-# Feedback 🙋‍♂️🙋‍♀️
-
-We'd love to hear your thoughts and see your experiments, so [come and say hi on Discord](https://discord.gg/Qc2QTTH5dF) or [Matrix](https://matrix.to/#/#typecell-space:matrix.org).
-
-# Contributing 🙌
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more info and guidance on how to run the project (TLDR: just use `npm start`).
-
-Directory structure:
-
-```
-blocknote
-├── packages/core       - The core of the editor
-├── packages/react      - The main library for use in React apps
-├── packages/mantine    - Mantine (default) implementation of BlockNote UI
-├── packages/ariakit    - AriaKit implementation of BlockNote UI
-├── packages/shadcn     - ShadCN / Tailwind / Radix implementation of BlockNote UI
-├── examples            - Example apps
-├── playground          - App to browse the example apps (https://playground.blocknotejs.org)
-└── tests               - Playwright end to end tests
-```
-
-The codebase is automatically tested using Vitest and Playwright.
-
-# License 📃
-
-BlockNote is licensed under the [MPL 2.0 license](https://fossa.com/blog/open-source-software-licenses-101-mozilla-public-license-2-0/), which allows you to use BlockNote in commercial (and closed-source) applications. If you make changes to the BlockNote source files, you're expected to publish these changes so the wider community can benefit as well.
-
-# Credits ❤️
-
-BlockNote builds directly on two awesome projects; [Prosemirror](https://prosemirror.net/) by Marijn Haverbeke and [Tiptap](https://tiptap.dev/). Consider sponsoring those libraries when using BlockNote: [Prosemirror](https://marijnhaverbeke.nl/fund/), [Tiptap](https://github.com/sponsors/ueberdosis).
-
-BlockNote is built as part of [TypeCell](https://www.typecell.org). TypeCell is proudly sponsored by the renowned [NLNet foundation](https://nlnet.nl/foundation/) who are on a mission to support an open internet, and protect the privacy and security of internet users. Check them out!
-
-<a href="https://nlnet.nl"><img src="https://nlnet.nl/image/logos/NGIAssure_tag.svg" alt="NLNet" width="100"></a>
-
-Hosting and deployments powered by Vercel:
-
-<a href="https://vercel.com/?utm_source=TypeCell&utm_campaign=oss"><img src="https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg" alt="NLNet" width="150"></a>
-
-This project is tested with BrowserStack
+Команда | Описание
+npm run dev (внутри examples/my-notebook) | Запуск напрямую (без NX, если нужно)
+npx nx run @blocknote/my-notebook:dev | ✅ Рекомендуемый запуск из корня
+npm run build | Сборка проекта
+npm run preview | Просмотр production-сборки
+npm run lint | Проверка ESLint

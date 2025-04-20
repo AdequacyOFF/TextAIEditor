@@ -1,0 +1,22 @@
+{
+  "name": "@blocknote/my-notebook",
+  "projectType": "application",
+  "sourceRoot": "examples/my-notebook/src",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "vite",
+        "cwd": "examples/my-notebook"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "vite build",
+        "cwd": "examples/my-notebook"
+      }
+    }
+  },
+  "tags": []
+}

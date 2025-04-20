@@ -1,9 +1,9 @@
 // TODO: review directories
-export * from "./editor/BlockNoteContext.js";
-export * from "./editor/BlockNoteDefaultUI.js";
-export * from "./editor/BlockNoteView.js";
-export * from "./editor/ComponentsContext.js";
-export * from "./i18n/dictionary.js";
+export * from "./editor/BlockNoteContext";
+export * from "./editor/BlockNoteDefaultUI";
+export * from "./editor/BlockNoteView";
+export * from "./editor/ComponentsContext";
+export * from "./i18n/dictionary";
 
 export * from "./blocks/AudioBlockContent/AudioBlockContent.js";
 export * from "./blocks/FileBlockContent/FileBlockContent.js";
